@@ -1,0 +1,31 @@
+.ks-Heading {
+  font-weight: normal;
+}
+.ks-Pagination {
+  background-color: #fff;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+.ks-Pagination-item {
+  display: inline-block;
+  padding: 0.25em;
+}
+.ks-Pagination-item--active {
+  color: #666;
+  text-decoration: none;
+}
+.ks-Pagination-item:hover {
+  background-color: #eef;
+}
+.ks-Search {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ks-Search-input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}

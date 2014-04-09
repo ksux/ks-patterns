@@ -1,6 +1,7 @@
-node_modules/
 bower_components/
 *.log
 
-build/
-dist/
+# Ignore any node_module that isn't prefixed with `ks-`.
+# These are assumed as the Kuali Student bundled dependencies.
+node_modules/*
+!node_modules/ks-*
